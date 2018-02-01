@@ -2,11 +2,19 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
 .product {
     border: 1px solid lightblue;
     width: 30%;
     margin: auto;
-    padding: 5px;
+    padding: 0;
 }
 
 .product-name {
@@ -18,25 +26,37 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 5px;
     width: 100%;
 }
 
 .product-info {
     text-align: justify;
-    padding: 5px;
+    padding: 0;
+}
+
+.description {
+    padding: 0 15px 0 15px;
 }
 
 .availability {
     color: gold;
     background: slategray;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-.availability article {
-    margin: 0;
+p.availability {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .product-specs {
     font-weight: bold;
+    padding: 0 15px 0 15px;
+}
+
+.product-specs p {
+    margin-bottom: .5em;
 }
