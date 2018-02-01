@@ -12,20 +12,20 @@ Your task is to build a grid of cards for a company's products. Here are the req
 3. Each product should contain a header element that, itself, contains an h2 element where the product's title will be written.
 4. Each product should have three sections.
 5. The first section should contain three child block elements.
-6. The first element contains the product image.
-7. The second element contains the product description.
-8. The third element contains the product availability (e.g. "Available" or "Not Available")
-9. The second section contains product specifications.
-10. This section should have a header containing the word "Specifications"
-11. This section should contain two block elements
-12. The first block element specifies the size.
-13. The second block element specifies the weight.
-14. This section should contain a footer.
-15. The footer contains text stating when the product specifications become invalid.
-16. The third section contains the product pricing.
-17. This section should contain a header.
-18. This section should contain three block elements.
-19. Each block element contains information about the price for different quantities.
+- The first element contains the product image.
+- The second element contains the product description.
+- The third element contains the product availability (e.g. "Available" or "Not Available")
+6. The second section contains product specifications.
+- This section should have a header containing the word "Specifications"
+- This section should contain two block elements
+- The first block element specifies the size.
+- The second block element specifies the weight.
+- This section should contain a footer.
+- The footer contains text stating when the product specifications become invalid.
+7. The third section contains the product pricing.
+- This section should contain a header.
+- This section should contain three block elements.
+- Each block element contains information about the price for different quantities.
 
  ### Additional style requirements
  1. The entire card has a solid 1px border that is lightblue.
